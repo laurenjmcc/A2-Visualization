@@ -83,6 +83,7 @@ d3.csv("data/guttmacher.csv").then(data => {
         .attr("y", innerH + 40)
         .attr("text-anchor", "middle")
         .text("Percentage change");
+
     g.selectAll(".state-label")
         .data(rows)
         .join("text")
