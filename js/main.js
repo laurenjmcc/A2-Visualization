@@ -140,6 +140,7 @@ d3.csv("data/guttmacher.csv").then(data => {
                 .attr("cx", cx).attr("cy", cy).attr("r", R);
         }
     });
+
     const scRow = rows.find(d => d.state === "South Carolina");
     if (scRow) {
         g.append("text")
